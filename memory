@@ -1,0 +1,71 @@
+# DEX M1 Baseline SEO/AEO Audit — README
+
+A section-by-section guide to the audit deck, for anyone who needs the gist without opening the full PPT. Data pulled 3–11 Sept 2026 from Ahrefs, Google Search Console, GA4, and Searchable.
+
+## Executive Summary
+
+DEX's core message: the site isn't broken, it's invisible. Technical health is strong at **94/100**, but almost nothing else is set up to be found. **66 of 71** pages are missing a meta description, **500+ of 1,446** referring domains look spammy, DEX ranks for **0 of 76** tracked keywords, and AI visibility sits at **0.3%** (126th of 326 tracked brands).
+
+## Technical SEO Audit
+
+Of 358 crawled pages, 251 pass, 86 carry warnings, and only **20 are actively causing problems**. Those 20 cover orphan pages with no incoming links, oversized images, one internal 404 and the page linking to it, a stale sitemap redirect, and one internal 301. The audit also confirms there's no crawling issue: AI bots can already read the whole site, so the low AI visibility is a content and authority gap, not a technical one.
+
+## On-Page Audit: Meta Data
+
+**93% of pages** have no meta description at all. The slide walks through one full example (/about-us/why-dex/, current vs. proposed title and description) plus three more pages showing impressions, CTR, and position so the fix priority is visible page by page. Trust signals (address, email, LinkedIn, privacy/terms) are already present sitewide; author/credibility info, which AI tools increasingly check before citing a source, is missing everywhere.
+
+## On-Page Audit: Headings & Internal Linking
+
+Five pages have broken heading tags, but they trace back to just two root causes: one shared author-archive template missing an H1 across three pages, and two individual pages with duplicate H1s. Separately, /our-products/ is a real main-nav item that only has **one** internal link pointing to it sitewide, which likely explains why it gets zero recorded organic traffic.
+
+## Backlink Profile: DEX
+
+DEX has **5,323** total linking URLs from **1,446** referring domains, and the domains it does have are solid (go.gov.sg, peppol.org, govinsider.asia, ibew.sg, hubble.build). The problem is that **over a third (500+)** of those domains look fake or spammy, including about 40 lookalike domains that all appeared within the same six weeks (Jul–Aug 2026), which reads as a deliberate negative-SEO push rather than organic spam buildup. Recommendation is to disavow now rather than wait.
+
+## Backlink Profile vs. Competitor (Playbook)
+
+DEX has zero links from the site types its competitors use to build authority: startup/company directories (Crunchbase, G2, TrustRadius) and tech/trade press (Tech in Asia, TechWireAsia, PYMNTS). The four adjacent competitors and what each is doing well:
+
+- **platomedical.com** (DR 65, competes with SGHealthdex): ranks for clinic management keywords, listed on third-party sites like Tech in Asia
+- **sgimed.com** (DR 46, competes with SGHealthdex): ranks for clinic management keywords, listed on review sites like TrustRadius
+- **enigio.com** (DR 47, competes with SGTradex): ranks for trade document keywords, has press coverage across trade/fintech outlets
+- **trames.io** (DR 8, competes with SGTradex): ranks for supply chain keywords despite a low DR, proof that focused content alone can still win visibility
+
+## Backlink Profile vs. Competitor (Press Coverage)
+
+Four specific examples of competitor press coverage DEX isn't getting: PYMNTS and IBS Intelligence covering a Lloyds/Enigio partnership, TechWireAsia covering Trames on freight operations, and Trade Finance Global's roundup of 12 trade-document-digitization companies, which features Enigio but not DEX despite DEX competing directly in that space. This is one visible slice of a wider pattern: competitors have picked up links from **22 authoritative sites** DEX currently has none from.
+
+## Content & Keyword Direction: SEO Keywords
+
+DEX doesn't currently rank for its own name. platomedical.com and sgimed.com already rank for clinic management system searches that DEX ranks for zero of. On the other side, six real-demand terms, including DEX's own product name (sgtradex), currently have **zero ranking competition** and sit unclaimed: im8 (1,100/mo), corenet 2.0 (350/mo), sgtradex (250/mo), trade finance in singapore (150/mo), primary care network (80/mo), and national electronic health record (70/mo).
+
+## Content & Keyword Direction: SEO + AEO Keywords
+
+Seven keyword/AEO-prompt pairs are shown as proof that every recommended keyword traces back to a real stakeholder pain point rather than a guess. IM8 and HSAR content directly answers compliance questions GPs and MOH/Synapxe have already raised. Fleet management, warehouse management, and corenet 2.0 all trace back to the same complaint from SGTradex and SGBuildex stakeholders about systems that aren't standardised and don't integrate well.
+
+## AI Citation & Mention Marketing: Where DEX Stands
+
+**13 real sessions** landed on dextech.ai directly from ChatGPT, Claude, or Gemini over 9 weeks (10 July–11 Sept), with zero paid or organic push behind them. The By AI Platform table (ChatGPT 13, Claude 7, Gemini 1) is a page-level count that sums to 21; the note under it clarifies 13 is the true de-duplicated total to use as the single headline figure. Engagement tracks whether the landing page matches the AI's answer: the SGTradex page holds visitors for 27.5s, while news articles reached via a citation click bounce in 0–5s.
+
+## AI Citation & Mention Marketing: What's Next
+
+19 AI prompts are tracked in the appendix; this slide shows one representative example per topic (Brand & Reputation, Named-System Prompts, Vertical-Specific, Competitive) along with the content each should point to. **14 of the 19** prompts already pair with a real tracked keyword; the rest are pure brand-trust plays with no SEO counterpart yet.
+
+## In Summary
+
+A four-line recap before the roadmap: technical is at 94/100 with a handful of fixes from clean; on-page and backlinks need meta descriptions written and spam links cleared, with the SGBuildex page already proving the fix works; AI visibility is at 0.3% but 13 real referral sessions are already arriving, meaning AI recognises DEX's products but not yet the brand; and keywords are at 0 of 76 ranking, with several zero-competition terms already mapped to a content plan.
+
+## Roadmap: Priorities & Next Steps
+
+Three phases, all starting immediately (Month 1), each tied to a KPI already baselined in this audit:
+
+1. **Technical Foundation** (Month 1): fix orphan pages, redirect/sitemap errors, oversized images, and submit changed pages to IndexNow. Technical health score target: 94/100 → 97+ by Month 5.
+2. **On-Page + Content** (Months 1–3): write the 66 missing meta descriptions, fix long titles, add a leadership bio and client case study, build content mapped to the keyword/prompt matrix. Targets: meta descriptions 5 of 71 → 71 of 71; organic keywords ranking 0 of 76 → 25+ of 76, both by Month 5.
+3. **Authority + AI Visibility** (Months 1–5): file a disavow request for the 500+ spam domains, flag the BCA link to Ahrefs for a recrawl, pursue SCAL/REDAS/trade-press links, confirm named competitors, monitor AI visibility monthly. Targets: AI visibility 0.3% → 5%+; spam referring domains 500+ → under 50, both by Month 5.
+
+## Appendix
+
+- **AI Citation & Mention Prompts**: the full list of all 19 tracked prompts, each mapped to a keyword cluster, topic, description, and funnel stage (TOFU/MOFU/BOFU).
+- **SEO Keywords (Parts 1–4)**: the complete keyword list across all four DEX verticals (SGBuildex, SGFarmdex, SGHealthdex, SGTradex), with priority, search volume (SG and global), keyword difficulty, DEX's current position, and which adjacent competitor already ranks there.
+
+(The internal note on the final page of the working file is not covered here, it's marked to be hidden before this goes out further.)
